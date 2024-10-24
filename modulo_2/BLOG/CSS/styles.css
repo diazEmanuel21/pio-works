@@ -1,0 +1,16 @@
+.main-content {
+    background-color: thistle;
+    color: black;
+    text-align: center;
+}
+.container-header {
+    background-color: thistle;
+    color: purple;
+    text-align: center;    
+
+}
+.color-titulos {
+    color: purple;
+    margin: 0;
+    padding-top: 10px;
+}

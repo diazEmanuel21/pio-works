@@ -1,0 +1,7 @@
+Crear archivo de styles.css
+. (nombre de la clase - separado por guión)
+Seguido le doy el stylo
+-Fondo
+-Letra
+etc
+

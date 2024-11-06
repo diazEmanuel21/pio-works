@@ -5,3 +5,9 @@ Seguido le doy el stylo
 -Letra
 etc
 
+##Pasos para hacer commit en git
+1. Abrir terminal ctrl + ñ 
+2. git add .
+3. git commit -m "prueba con JS"
+4. git push origin main
+5. para salir comando exit

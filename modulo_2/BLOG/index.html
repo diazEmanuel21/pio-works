@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Encabezado de la pagina -->
     <header>
         <!-- Etiqueta de contenedor en bloque -->
         <div>
-        <img src="./assets/DONA.jpeg" alt="Logo del Blog" style="width: 80px; height: 80px;">
-        <h1>Mi Blog</h1>
-        <!-- Etiqueta semantica - menú de navegación-->
-        <nav>
-            <ul>
-                <li>Sobre mi</li>
-                <li>Donas dulces</li>
-                <li>Donas saladas</li>
-            </ul>
-        </nav>
+            <img src="./assets/DONA.jpeg" alt="Logo del Blog" style="width: 80px; height: 80px;">
+            <h1>Mi Blog</h1>
+            <!-- Etiqueta semantica - menú de navegación-->
+            <nav>
+                <ul>
+                    <li>Sobre mi</li>
+                    <li>Donas dulces</li>
+                    <li>Donas saladas</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <!-- Etiqueta semantica (contenido principal) -->
@@ -43,7 +44,7 @@
             <p> rosquilla, rosquita, rosqueta, rosca, berlina o berlín,
                 es una rosca de pan dulce que tradicionalmente está frito en grasa de cerdo.</p>
         </article>
-        
+
         <!-- Etiqueta semantica para seccionar -->
         <section>
             <h2>Tutoriales</h2>
@@ -51,9 +52,43 @@
                 <li><a href=>"Como hacer donas" </a></li>
                 <li><a href=>"Tipos de donas" </a></li>
             </ul>
-            <!-- Selccion sobre el autor publicitario -->
-            
+            <!-- Seleccion sobre el autor publicitario (estructura formilario) -->
+            <aside>
+                <h2>Recibe toda la información</h2>
+                <form action="#" method="post" autocomplete="on">
+                    <label for="email">Email*></label>
+                    <input placeholder="Correo electronico" type="email" autocomplete="email" name="" id="" required>
+                    <button type="submit">Suscribirse</button>
+
+                    <!-- Tabla de recursos -->
+                    <h2>Recursos utiles</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Recursos</th>
+                                <th>Descripción</th>
+                                <th>Enlace</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>MDN web doc</td>
+                                <td>docuemntacion y recursos para desarrolladore</td>
+                                <td> <a href="https://balsamiq.cloud/sl5jc64/p2wtx74/rBBEB" target="_blank"> otro enlace</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>Stack Overflow</td>
+                                <td>Tutoriales sobre dinas</td>
+                                <td> <a href="https://balsamiq.cloud/sl5jc64/p2wtx74/rBBEB" target="_blank"> otro enlace</a></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    </form>
+            </aside>
         </section>
     </main>
 </body>
+
 </html>

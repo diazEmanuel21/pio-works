@@ -1,0 +1,362 @@
+<<<<<<< HEAD
+ /* Reset básico */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ /* Fondo de la página con efecto Parallax */
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-image: url(./assets/fondo.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     color: #333;
+ }
+
+ /* Tarjeta contenedora */
+ .card {
+     background-color: rgba(255, 255, 255, 0.9);
+     width: 350px;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+ }
+
+ /* Animación sutil en la tarjeta al hacer hover */
+ .card:hover {
+     transform: translateY(-5px);
+     transition: transform 0.3s ease;
+ }
+
+ /* Imagen de perfil */
+ .profile-pic {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: 4px solid #88c788;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+
+ /* Efecto de zoom en la imagen al pasar el ratón */
+ .profile-pic:hover {
+     transform: scale(1.1);
+ }
+
+ /* Título de la tarjeta */
+ .card h2 {
+     margin-top: 15px;
+     font-size: 24px;
+     color: #4f8a4f;
+     position: relative;
+     cursor: pointer;
+ }
+
+ /* Texto descriptivo */
+ .card p {
+     margin-top: 10px;
+     font-size: 16px;
+     color: #555;
+ }
+
+ /* Botones de enlace */
+ .link-button {
+     display: block;
+     margin: 10px auto;
+     padding: 10px 20px;
+     width: 80%;
+     background-color: #88c788;
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     border-radius: 8px;
+     transition: all 0.3s ease;
+ }
+
+ /* Animación de cambio de color en los botones */
+ .link-button:hover {
+     background-color: #6fb06f;
+     transform: scale(1.05);
+ }
+
+ /* Mensaje oculto en el nombre (hover) */
+ .card h2::after {
+     content: "¡Bienvenido a mi jardín! 🌱";
+     position: absolute;
+     top: -30px;
+     left: 50%;
+     transform: translateX(-50%);
+     background-color: #4f8a4f;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 14px;
+     opacity: 0;
+     transition: opacity 0.3s ease;
+ }
+
+ /* Mostrar el mensaje oculto al pasar el ratón */
+ .card h2:hover::after {
+     opacity: 1;
+ }
+
+ /* Sección adicional de información */
+ .additional-info {
+     margin-top: 20px;
+     text-align: left;
+     font-size: 14px;
+     color: #333;
+ }
+
+ .additional-info h3 {
+     color: #4f8a4f;
+     font-size: 18px;
+     margin-bottom: 8px;
+ }
+
+ /* Estilo para lista de habilidades */
+ .skills {
+     list-style: none;
+     padding-left: 0;
+ }
+
+ .skills li {
+     margin-bottom: 8px;
+     display: flex;
+     align-items: center;
+ }
+
+ /* Icono para cada habilidad */
+ .skills li::before {
+     content: "🌿";
+     margin-right: 8px;
+     font-size: 18px;
+ }
+
+ /* Sección de contacto */
+ .contact-info {
+     margin-top: 15px;
+     font-size: 14px;
+     color: #555;
+     text-align: center;
+ }
+
+ /* Galería de plantas */
+ .plant-gallery {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     overflow: hidden;
+ }
+
+ .plant {
+     text-align: center;
+ }
+
+ .plant img {
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 5px;
+ }
+
+ .plant h4 {
+     font-size: 16px;
+     color: #4f8a4f;
+     margin-bottom: 3px;
+ }
+
+ .plant p {
+     font-size: 14px;
+     color: #555;
+=======
+ /* Reset básico */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ /* Fondo de la página con efecto Parallax */
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-image: url(./assets/fondo.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     color: #333;
+ }
+
+ /* Tarjeta contenedora */
+ .card {
+     background-color: rgba(255, 255, 255, 0.9);
+     width: 350px;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     position: relative;
+     overflow: hidden;
+ }
+
+ /* Animación sutil en la tarjeta al hacer hover */
+ .card:hover {
+     transform: translateY(-5px);
+     transition: transform 0.3s ease;
+ }
+
+ /* Imagen de perfil */
+ .profile-pic {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: 4px solid #88c788;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+
+ /* Efecto de zoom en la imagen al pasar el ratón */
+ .profile-pic:hover {
+     transform: scale(1.1);
+ }
+
+ /* Título de la tarjeta */
+ .card h2 {
+     margin-top: 15px;
+     font-size: 24px;
+     color: #4f8a4f;
+     position: relative;
+     cursor: pointer;
+ }
+
+ /* Texto descriptivo */
+ .card p {
+     margin-top: 10px;
+     font-size: 16px;
+     color: #555;
+ }
+
+ /* Botones de enlace */
+ .link-button {
+     display: block;
+     margin: 10px auto;
+     padding: 10px 20px;
+     width: 80%;
+     background-color: #88c788;
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     border-radius: 8px;
+     transition: all 0.3s ease;
+ }
+
+ /* Animación de cambio de color en los botones */
+ .link-button:hover {
+     background-color: #6fb06f;
+     transform: scale(1.05);
+ }
+
+ /* Mensaje oculto en el nombre (hover) */
+ .card h2::after {
+     content: "¡Bienvenido a mi jardín! 🌱";
+     position: absolute;
+     top: -30px;
+     left: 50%;
+     transform: translateX(-50%);
+     background-color: #4f8a4f;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 14px;
+     opacity: 0;
+     transition: opacity 0.3s ease;
+ }
+
+ /* Mostrar el mensaje oculto al pasar el ratón */
+ .card h2:hover::after {
+     opacity: 1;
+ }
+
+ /* Sección adicional de información */
+ .additional-info {
+     margin-top: 20px;
+     text-align: left;
+     font-size: 14px;
+     color: #333;
+ }
+
+ .additional-info h3 {
+     color: #4f8a4f;
+     font-size: 18px;
+     margin-bottom: 8px;
+ }
+
+ /* Estilo para lista de habilidades */
+ .skills {
+     list-style: none;
+     padding-left: 0;
+ }
+
+ .skills li {
+     margin-bottom: 8px;
+     display: flex;
+     align-items: center;
+ }
+
+ /* Icono para cada habilidad */
+ .skills li::before {
+     content: "🌿";
+     margin-right: 8px;
+     font-size: 18px;
+ }
+
+ /* Sección de contacto */
+ .contact-info {
+     margin-top: 15px;
+     font-size: 14px;
+     color: #555;
+     text-align: center;
+ }
+
+ /* Galería de plantas */
+ .plant-gallery {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     overflow: hidden;
+ }
+
+ .plant {
+     text-align: center;
+ }
+
+ .plant img {
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 5px;
+ }
+
+ .plant h4 {
+     font-size: 16px;
+     color: #4f8a4f;
+     margin-bottom: 3px;
+ }
+
+ .plant p {
+     font-size: 14px;
+     color: #555;
+>>>>>>> 53302ad3180732155b519a7da2fd02bae96a679e
+ }

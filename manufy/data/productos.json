@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "TV Samsung QLED 4K",
+        "caracteristicas": {
+            "tipoPantalla": "QLED",
+            "resolucion": "3840 x 2160 (4K UHD)",
+            "pulgadas": 55,
+            "HDR": "HDR10+",
+            "conectividad": ["Wi-Fi", "Bluetooth", "4 HDMI", "2 USB"]
+        },
+        "precio": 12999,
+        "url": "assets/img/producto1.webp"
+    },
+    {
+        "nombre": "TV LG OLED 4K",
+        "caracteristicas": {
+            "tipoPantalla": "OLED",
+            "resolucion": "3840 x 2160 (4K UHD)",
+            "pulgadas": 65,
+            "HDR": "Dolby Vision",
+            "conectividad": ["Wi-Fi", "Bluetooth", "3 HDMI", "3 USB"]
+        },
+        "precio": 18999,
+        "url": "assets/img/producto2.webp"
+    },
+    {
+        "nombre": "TV Sony Bravia XR",
+        "caracteristicas": {
+            "tipoPantalla": "LED",
+            "resolucion": "3840 x 2160 (4K UHD)",
+            "pulgadas": 75,
+            "HDR": "HDR10, HLG",
+            "conectividad": ["Wi-Fi", "Bluetooth", "4 HDMI", "3 USB"]
+        },
+        "precio": 24999,
+        "url": "assets/img/producto3.webp"
+    },
+    {
+        "nombre": "TV Hisense ULED 4K",
+        "caracteristicas": {
+            "tipoPantalla": "ULED",
+            "resolucion": "3840 x 2160 (4K UHD)",
+            "pulgadas": 50,
+            "HDR": "Dolby Vision, HDR10",
+            "conectividad": ["Wi-Fi", "Bluetooth", "3 HDMI", "2 USB"]
+        },
+        "precio": 9999,
+        "url": "assets/img/producto4.webp"
+    },
+    {
+        "nombre": "TV TCL Smart 4K",
+        "caracteristicas": {
+            "tipoPantalla": "LED",
+            "resolucion": "3840 x 2160 (4K UHD)",
+            "pulgadas": 43,
+            "HDR": "HDR10",
+            "conectividad": ["Wi-Fi", "Bluetooth", "2 HDMI", "1 USB"]
+        },
+        "precio": 7999,
+        "url": "assets/img/producto5.webp"
+    }
+]

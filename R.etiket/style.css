@@ -1,0 +1,374 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.btn-bg-transparent {
+    background-color: transparent !important;
+}
+
+.btn-bg-transparent:hover,
+#categoriasMenu>a:hover {
+    background-color: #FFF !important;
+    color: #003366;
+}
+
+#categoriasMenu>a {
+    transition: 0.2s;
+}
+
+.header-page {
+    background-color: #003366;
+}
+
+.nav-header {
+    display: flex;
+    margin: 0px auto;
+}
+
+.nav-header>.logo>img {
+    height: 110px;
+}
+
+.logo {
+    padding-right: 1em;
+}
+
+.logo,
+.buscador,
+.search-container,
+.actions-nav {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions-nav {
+    gap: 8px;
+}
+
+.buscador,
+.search-container,
+.actions-nav {
+    flex: 1;
+}
+
+.actions-nav,
+.search-container {
+    justify-content: end;
+}
+
+.search-input-nav {
+    max-width: 250px;
+}
+
+/*  nav-menu */
+.progress-circle {
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.circle {
+    transform: rotate(-90deg);
+}
+
+circle {
+    stroke-linecap: round;
+}
+
+circle.circle-progress {
+    stroke-dasharray: 125.6;
+    /* Circunferencia: 2 * Math.PI * radio (20px) */
+    stroke-dashoffset: 125.6;
+    transition: stroke-dashoffset 0.5s linear;
+}
+
+.nav-menu {
+    background-color: #002a4a;
+}
+
+/* Start */
+/* Estilos personalizados */
+@media (min-width: 1000px) {
+    .categorias-lista {
+        display: flex !important;
+        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .categorias-lista li a {
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .categorias-lista li a:hover {
+        color: #007bff;
+        background-color: #EEE;
+    }
+}
+
+/* End */
+
+/* start Menu hover */
+/* information and help*/
+.menu-informacion {
+    display: flex;
+    gap: 10px;
+    background-color: #003366;
+    padding: 1em;
+}
+
+.menu-sale-point-content,
+.menu-help-content {
+    position: relative;
+    /* Necesario para el posicionamiento absoluto del menú */
+}
+
+.sale-menu,
+.menu-help {
+    display: none;
+    /* Ocultar submenús inicialmente */
+    position: absolute;
+    top: 100%;
+    /* Aparece debajo del botón */
+    left: 0;
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    border: 1px solid #ccc;
+    /* Borde sutil */
+    padding: 10px 0;
+    list-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 200px;
+}
+
+.sale-menu-item,
+.menu-help li {
+    margin: 0;
+}
+
+.sale-menu-item a,
+.menu-help li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sale-menu-item a:hover,
+.menu-help li a:hover {
+    background-color: #007bff;
+    /* Fondo azul al pasar el mouse */
+    color: white;
+    border-radius: 4px;
+}
+
+/* Mostrar el menú al hacer hover */
+.menu-sale-point-content:hover .sale-menu {
+    display: block;
+}
+
+.menu-help-content:hover .menu-help {
+    display: block;
+}
+
+/* Botones principales */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.container-navigation-top-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-navigation-top-carousel>.categorias-container>ul {
+    margin: 0;
+}
+
+/* END Menu hover */
+#carouselExampleSlidesOnly {
+    margin-bottom: 1em;
+}
+
+.btn-group.dropup>ul {
+    width: 100%;
+}
+
+.btn.dropdown-toggle.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.events-and-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em 1em;
+    gap: 1em;
+    background-color: #003366;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+}
+
+.dropdown-menu.show>li {
+    text-transform: capitalize;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #C2C2C2;
+    color: #003366;
+    cursor: pointer;
+}
+
+.dropdown-menu.show>li:hover {
+    background-color: #0d6efd;
+    color: #FFF;
+}
+
+.img-principal>img {
+    width: 100%;
+}
+
+/* EVENTOS */
+.container-eventos {
+    margin-top: 10px;
+}
+
+.title-eventos {
+    background-color: #003366;
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.title-eventos>p {
+    margin: 0;
+}
+
+#events-container {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer-events-card {
+    padding: 0;
+}
+
+.see-events-btn {
+    width: 100%;
+    border-radius: 0;
+}
+
+/* Media queryes */
+/* Header */
+@media (min-width: 780px) {
+    #categoriasMenu>a {
+        padding: 10px 15px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-header {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .nav-header>.logo {
+        margin-bottom: 1em;
+    }
+
+    .search-container>input {
+        display: none;
+    }
+
+    .actions-nav {
+        flex: 6;
+    }
+
+    .actions-nav,
+    .search-container {
+        justify-content: center;
+    }
+
+    /* Events and location */
+    .events-and-location,
+    .container-navigation-top-carousel,
+    .menu-informacion {
+        flex-direction: column;
+    }
+
+    .categorias-container {
+        padding-top: 1em;
+    }
+
+    .categorias-container>button,
+    .menu-sale-point-content>button,
+    .menu-help-content>button,
+    .events-and-location>div>div>button {
+        min-width: 300px;
+    }
+
+    .menu-informacion {
+        background-color: transparent;
+        gap: 15px;
+    }
+}
+
+/* Eventos */
+#events-container>div {
+    overflow: hidden;
+}
+
+#events-container>div>img {
+    transition: ease-in-out .4s;
+}
+
+#events-container>div>img:hover {
+    transform: scale(1.1);
+}
+
+.copyright-footer {
+    padding: 10px;
+    background-color: #30393a;
+}

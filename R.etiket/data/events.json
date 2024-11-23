@@ -1,0 +1,42 @@
+[
+    {
+        "url": "assets/eventos/evento1.jpg",
+        "evento": "Duo Marger",
+        "ciudad": "Medellín"
+    },
+    {
+        "url": "assets/eventos/evento2.jpg",
+        "evento": "Jaison Neutra",
+        "ciudad": "Bogotá"
+    },
+    {
+        "url": "assets/eventos/evento3.jpg",
+        "evento": "Andrea Bocelli",
+        "ciudad": "Cali"
+    },
+    {
+        "url": "assets/eventos/evento4.jpg",
+        "evento": "Andres Cepeda",
+        "ciudad": "Bogotá"
+    },
+    {
+        "url": "assets/eventos/evento5.jpg",
+        "evento": "Apolo 7",
+        "ciudad": "Bogotá"
+    },
+    {
+        "url": "assets/eventos/evento6.jpg",
+        "evento": "Aventura",
+        "ciudad": "Medellín"
+    },
+    {
+        "url": "assets/eventos/evento7.jpg",
+        "evento": "Barranquilla brilla con Elite",
+        "ciudad": "Cali"
+    },
+    {
+        "url": "assets/eventos/evento8.jpg",
+        "evento": "BRESH Colombia",
+        "ciudad": "Bogotá"
+    }
+]
